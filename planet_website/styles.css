@@ -1,0 +1,49 @@
+body{
+	background-color: black;
+	background-image: url("images/sun.jpg");
+	background-repeat: no-repeat;
+	color: white;
+	font-family: 'Righteous', cursive;
+}
+
+table {
+	margin-top:10%;
+}
+table, th, td {
+	border: 1px dashed purple;
+}
+tr:nth-child(even) {
+	background-color: #333333
+}
+th, td{
+	width: 12.5%;
+}
+img {
+	position: absolute;
+	float:right;
+	width: 25%;
+	z-index: -1;
+}
+#jup {
+	top: 0%;
+	left: 75%;
+}
+#sat {
+	top: 45%;
+	left:0%;
+}
+#ur {
+	width: 35%;
+	top: 65%;
+	left: 25%;
+}
+#nep {
+	left: 75%;
+
+}
+#credit {
+	position: fixed;
+	bottom: 0px;
+	left: 45%;
+	font-size: 24px;
+}
